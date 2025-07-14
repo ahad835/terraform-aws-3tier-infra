@@ -1,4 +1,4 @@
-# 🚀 Terraform AWS 3-Tier Infrastructure Boilerplate
+#  Terraform AWS 3-Tier Infrastructure Boilerplate
 
 A production-ready **modular 3-tier infrastructure** on AWS built entirely using **Terraform**.  
 This repo is designed for:
@@ -16,7 +16,7 @@ With just a few commands, you can spin up:
 
 ---
 
-## 📦 What’s Included
+## What’s Included
 
 | Layer         | Components                                                                 |
 |---------------|----------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ With just a few commands, you can spin up:
 
 ---
 
-## 🧠 Why Should You Clone This?
+## Why Should You Clone This?
 
 - ✅ **Ready-to-use** Terraform modules for real-world infra
 - ✅ Clean separation of `envs/dev` and reusable `modules/`
@@ -42,7 +42,7 @@ With just a few commands, you can spin up:
 
 ---
 
-## 🧱 Directory Structure
+## Directory Structure
 
 ```bash
 terraform-aws-3tier-infra/
@@ -82,7 +82,7 @@ Create a dynamodb table on aws with name : terraform-locks
 
 
 ## Step 3: Update the Terraform Variables
-🧾 Copy the example file
+Copy the example file
 
 cp example.dev.tfvars dev.tfvars
 
